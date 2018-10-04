@@ -200,7 +200,7 @@ class Network(object):
 
     @layer
     def concat(self, inputs, axis, name):
-        return tf.concat(concat_dim=axis, values=inputs, name=name)
+        return tf.concat(values=inputs, axis=axis, name=name)
 
     @layer
     def fc(self, input, num_out, name, relu=True, trainable=True, reuse=False):
