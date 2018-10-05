@@ -6,3 +6,13 @@ pyyaml
 easydict
 graphviz
 cython
+protobuf
+absl-py
+astor
+backports.weakref
+enum34
+gast
+grpcio
+mock
+tensorboard
+termcolor
